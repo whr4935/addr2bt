@@ -1,6 +1,11 @@
 # addr2bt
 &nbsp;&nbsp;addr2bt工具通过查找进程maps文件，将虚拟地址转换为模块名加偏移地址，方便使用addr2line工具查找对应的源码位置。
-  
+
+***
+### 编译
+在linux环境下编译，直接make即可。
+
+
 ***
 ### 内存泄漏调试方法：
 以调试mediaserver为例：
